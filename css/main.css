@@ -1,3 +1,259 @@
+@font-face {
+    font-family: 'Buyan';
+    src: url('/fonts/Buyan-bold.woff2');
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.main_section {
+    max-width: 430px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #000;
+    color: white;
+}
+
+.header {
+    max-width: clamp(290px, 28vw, 306px);
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date {
+    text-align: right;
+}
+
+.date_p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+}
+
+.date_p span {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.logo {
+    max-width: clamp(135px, 15vw, 166px);
+    height: auto;
+}
+
+.time {
+    text-align-last: left;
+}
+
+.time_p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+}
+
+.time_p span {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.bantik {
+    position: absolute;
+    display: none;
+}
+
+.top_right {
+    position: absolute;
+    display: none;
+}
+
+.heading {
+    max-width: clamp(300px, 90%, 400px);
+    margin: 0 auto;
+    margin-bottom: 34px;
+    position: relative;
+    z-index: 10;
+}
+
+.heading_h1 {
+    font-family: Buyan, sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px, 6vw, 25px);
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.heading span {
+    color: rgba(255 22 22);
+}
+
+.hero {
+    max-width: clamp(300px, 90%, 418px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about_project {
+    max-width: 200px;
+    width: 100%;
+    z-index: 10;
+}
+
+.about_poject_heading {
+    max-width: 165px;
+    width: 100%;
+    margin-bottom: 7px;
+    background-color: #FFFF;
+    padding: 4px 8px;
+    color: black;
+    border-radius: 8px;
+}
+
+.a_p_p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info_card {
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
+
+.info_card_p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.timer {
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    margin-left: 53px;
+    margin-top: 28px;
+}
+
+.timer_p {
+    font-family: Buyan, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timer img {
+    margin-bottom: -19px;
+}
+
+.speaker {
+    max-width: 320px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -115px;
+}
+
+.btn_border {
+    max-width: clamp(290px, 41vw, 369px);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 11px;
+    border: 2px dashed #FFFF;
+    border-radius: 14px;
+    position: relative;
+    z-index: 10;
+}
+
+.registerBtn {
+    width: 100%;
+    padding: 25px clamp(30px, 6vw, 50px);
+    background: linear-gradient(90deg, #ED1F1F 0%, #F65858 52.88%, #D30000 100%);
+    box-shadow: 5px 5px 7.8px 0px rgba(255, 255, 255, 0.25) inset;
+    box-shadow: -3px -3px 5.4px 0px rgba(0, 0, 0, 0.32) inset;
+    border-radius: 10px;
+    border: transparent;
+    outline: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-family: Buyan, sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px, 3vw, 26px);
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .homeModal,
 .homeModalOverlay {
     position: fixed;
@@ -105,7 +361,7 @@
 }
 
 .HomeFormRowInput:focus {
-    border-color: #ABF948
+    border-color: #ED1F1F
 }
 
 .HomeFormRowInput::placeholder {
@@ -118,8 +374,9 @@
     width: 100%;
     cursor: pointer;
     border-radius: 10px;
-    background: linear-gradient(90deg, #FAFD75 0%, #ABF948 100%);
-    border: 7px solid rgb(171 249 72 / .2);
+    background: linear-gradient(90deg, #ED1F1F 0%, #F65858 52.88%, #D30000 100%);
+    box-shadow: 5px 5px 7.8px 0px rgba(255, 255, 255, 0.25) inset;
+    box-shadow: -3px -3px 5.4px 0px rgba(0, 0, 0, 0.32) inset;
     transition: 0.3s;
     font-weight: 700;
     font-size: 28px;

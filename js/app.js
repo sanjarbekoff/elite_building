@@ -85,3 +85,5 @@ document.addEventListener("DOMContentLoaded", function () {
     v();
   });
 });
+
+!function(){var e=document.querySelector('.timer_p'),t=119;if(!e)return;setInterval(function(){t--;if(t<0)t=119;var m=Math.floor(t/60),s=t%60;e.textContent=(m<10?'0':'')+m+':'+(s<10?'0':'')+s},1000)}()
