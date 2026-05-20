@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite Building</title>
     <style>
-        *{margin:0;padding:0;box-sizing:border-box}body{background-color:#000}.main_section{max-width:430px;margin:0 auto;position:relative;background-color:#000;color:#fff}.header{max-width:clamp(290px, 28vw, 306px);width:100%;margin:0 auto;margin-bottom:19px;display:flex;align-items:center;justify-content:space-between}.date{text-align:right}.date_p{font-family:Montserrat,sans-serif;font-weight:400;font-size:10px;line-height:100%}.date_p span{font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;line-height:100%;text-align:right;text-transform:uppercase}.logo{max-width:clamp(135px, 15vw, 166px);height:auto}.time{text-align-last:left}.time_p{font-family:Montserrat,sans-serif;font-weight:400;font-size:10px;line-height:100%}.time_p span{font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;line-height:100%;text-align:right;text-transform:uppercase}.bantik{position:absolute;display:none}.top_right{position:absolute;display:none}.heading{max-width:clamp(300px, 90%, 400px);margin:0 auto;margin-bottom:34px;position:relative;z-index:10}.heading_h1{font-family:Buyan,sans-serif;font-weight:700;font-size:clamp(20px, 6vw, 25px);line-height:120%;text-align:center;text-transform:uppercase;margin:0 auto}.heading span{color:rgba(255 22 22)}.hero{max-width:clamp(300px, 90%, 418px);margin:0 auto;display:flex;justify-content:space-between;position:relative}.about_project{max-width:200px;width:100%;z-index:10}.about_poject_heading{max-width:165px;width:100%;margin-bottom:7px;background-color:#FFF;padding:4px 8px;color:#000;border-radius:8px}.a_p_p{font-family:Montserrat,sans-serif;font-weight:700;font-size:18px;line-height:120%;text-align:center;text-transform:uppercase}.info_card{margin-top:14px;width:100%;display:flex;align-items:start;gap:8px}.info_card_p{font-family:Montserrat,sans-serif;font-weight:400;font-size:16px;line-height:120%}.timer{max-width:90px;width:100%;display:flex;align-items:end;gap:5px;margin-left:53px;margin-top:28px}.timer_p{font-family:Buyan,sans-serif;font-weight:700;font-size:32px;line-height:120%;text-align:center;text-transform:uppercase}.timer img{margin-bottom:-19px}.speaker{max-width:320px;width:100%;position:absolute;right:0;bottom:-115px;aspect-ratio: 320/413}.btn_border{max-width:clamp(290px, 41vw, 369px);width:100%;margin:0 auto;margin-top:30px;padding:10px 11px;border:2px dashed #FFF;border-radius:14px;position:relative;z-index:10}.registerBtn{width:100%;padding:25px clamp(30px, 6vw, 50px);background:linear-gradient(90deg,#ED1F1F 0%,#F65858 52.88%,#D30000 100%);box-shadow:5px 5px 7.8px 0 rgb(255 255 255 / .25) inset;box-shadow:-3px -3px 5.4px 0 rgb(0 0 0 / .32) inset;border-radius:10px;border:#fff0;outline:hidden;cursor:pointer;display:flex;justify-content:center;gap:12px;font-family:Buyan,sans-serif;font-weight:700;font-size:clamp(20px, 3vw, 26px);line-height:120%;text-align:center;text-transform:uppercase;color:#FFF}
+        *{margin:0;padding:0;box-sizing:border-box}body{background-color:#000}.main_section{max-width:430px;margin:0 auto;position:relative;background-color:#000;color:#fff;overflow:hidden}.header{max-width:clamp(250px, 28vw, 306px);width:100%;margin:0 auto;margin-bottom:19px;display:flex;align-items:center;justify-content:space-between}.date{text-align:right}.date_p{font-family:Montserrat,sans-serif;font-weight:400;font-size:10px;line-height:100%}.date_p span{font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;line-height:100%;text-align:right;text-transform:uppercase}.logo{max-width:clamp(120px, 15vw, 166px);height:auto}.time{text-align-last:left}.time_p{font-family:Montserrat,sans-serif;font-weight:400;font-size:10px;line-height:100%}.time_p span{font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;line-height:100%;text-align:right;text-transform:uppercase}.bantik{position:absolute;width:85px;height:72px;aspect-ratio:85/72;top:134px;left:-52px;top:clamp(90px, 15vw, 135px)}.top_right{position:absolute;display:block;top:-25px;right:clamp(-40px, -28vw, -20px);width:70px;height:104px}.heading{max-width:clamp(300px, 90%, 400px);margin:0 auto;position:relative;z-index:10}.heading_h1{font-family:Buyan,sans-serif;font-weight:700;font-size:clamp(20px, 6vw, 25px);line-height:120%;text-align:center;text-transform:uppercase;margin:0 auto}.heading span{color:rgba(255 22 22)}.hero{max-width:clamp(300px, 90%, 418px);margin:0 auto;display:flex;justify-content:space-between;position:relative;margin-top:34px}.about_project{max-width:200px;width:100%;z-index:10}.about_poject_heading{max-width:165px;width:100%;margin-bottom:7px;background-color:#FFF;padding:4px 8px;color:#000;border-radius:8px}.a_p_p{font-family:Montserrat,sans-serif;font-weight:700;font-size:18px;line-height:120%;text-align:center;text-transform:uppercase}.info_card{margin-top:14px;width:100%;display:flex;align-items:start;gap:8px}.info_card_p{font-family:Montserrat,sans-serif;font-weight:400;font-size:clamp(13px, 4vw, 16px);line-height:120%}.timer{max-width:90px;width:100%;display:flex;align-items:end;gap:5px;margin-left:20px;margin-top:28px}.timer_p{font-family:Buyan,sans-serif;font-weight:700;font-size:clamp(26px, 6vw, 32px);line-height:120%;text-align:center;text-transform:uppercase}.timer img{margin-bottom:-10px}.speaker{max-width:clamp(220px, 64vw, 280px);width:100%;position:absolute;right:-10px;top:1px;aspect-ratio:280/360}.btn_border{max-width:clamp(290px, 41vw, 369px);width:100%;margin:0 auto;margin-top:clamp(20px, 6vw, 30px);padding:10px 11px;border:2px dashed rgb(255 255 255 / .5);border-radius:14px;position:relative;z-index:10}.registerBtn{width:100%;padding:25px clamp(30px, 6vw, 50px);background:linear-gradient(90deg,#ED1F1F 0%,#F65858 52.88%,#D30000 100%);box-shadow:5px 5px 7.8px 0 rgb(255 255 255 / .25) inset;box-shadow:-3px -3px 5.4px 0 rgb(0 0 0 / .32) inset;border-radius:10px;border:#fff0;outline:hidden;cursor:pointer;display:flex;justify-content:center;gap:12px;font-family:Buyan,sans-serif;font-weight:700;font-size:clamp(20px, 3vw, 26px);line-height:120%;text-align:center;text-transform:uppercase;color:#FFF}
     </style>
     <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
     <noscript>
@@ -36,14 +36,14 @@
                 </div>
             </div>
 
-            <img src="/images/top_right.avif" width="100" alt="img" class="top_right" loading="lazy" decoding="async">
-            <img src="/images/bantik_surprize.avif" width="85" alt="img" class="bantik" loading="lazy" decoding="async">
+            <img src="/images/top_right_lenta.avif" width="103" alt="img" class="top_right" loading="lazy" decoding="async">
+            <img src="/images/key_surprize.avif" width="85" alt="img" class="bantik" loading="lazy" decoding="async">
 
             <div class="heading">
                 <h1 class="heading_h1">
-                    Guliston shahrida boshlang‘ich 10%<br>
-                    to‘lab, qolgan qismini <span>48 oyga bo‘lib<br>
-                    to‘lash</span> orqali xonadon xarid qiling
+                    Guliston shahrida boshlang'ich 10%<br>
+                    to'lab, qolgan qismini <span>48 oyga bo'lib<br>
+                    to'lash</span> orqali xonadon xarid qiling
                 </h1>
             </div>
 
@@ -82,7 +82,7 @@
                         <p class="timer_p">
                             01:59
                         </p>
-                        <img src="/images/right_bottom.avif" alt="btn-strelka" loading="lazy" decoding="async">
+                        <img src="/images/right_bottom.avif" width="22" alt="btn-strelka" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -98,70 +98,9 @@
         </section>
     </main>
 
-    <div id="registrationModal" class="homeModal" style="display: none">
-        <div class="homeModalOverlay"></div>
-        <div class="homeFormContainer">
-            <button class="closeButton" id="closeModalBtn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
-                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" />
-                </svg>
-            </button>
-            <div class="homeFormTop">
-                <h1 class="homeFormTopTitle">
-                    Ro'yxatdan o'tish uchun ma'lumotlaringizni kiriting!
-                </h1>
-            </div>
-            <form id="registrationForm" name="contact-form">
-                <div class="HomeFormRow">
-                    <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
-                    <input class="HomeFormRowInput" type="text" id="name" name="name" placeholder="Ismingizni kiriting"
-                        autocomplete="name" />
-                    <p class="homeFormErrorText" id="nameError" style="display: none">
-                        ❌ Ismingizni kiriting!
-                    </p>
-                </div>
-
-                <div class="HomeFormRow">
-                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
-
-                    <div class="phone-input-container">
-                        <button type="button" class="selected-country" id="selectedCountry">
-                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
-
-                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
-                        </button>
-
-                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
-
-                        <div class="phone-field">
-                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
-                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
-                                style="border: none; background-color: transparent;padding-left: 5px;" />
-                        </div>
-                    </div>
-
-                    <p class="homeFormErrorText" id="phoneError" style="display:none">
-                        ❌ Telefon raqam mos emas!
-                    </p>
-                </div>
-
-
-                <button type="submit" class="HomeFormBtn" id="submitBtn">
-                    DAVOM ETISH
-                </button>
-            </form>
-
-        </div>
-    </div>
-
-    <script defer src="/js/phoneFormatter.js"></script>
-    <script defer src="/js/app.js"></script>
+    <script defer>
+        !function(){var e=document.querySelector('.timer_p'),t=119;if(!e)return;setInterval(function(){t--;if(t<0)t=119;var m=Math.floor(t/60),s=t%60;e.textContent=(m<10?'0':'')+m+':'+(s<10?'0':'')+s},1000)}()
+    </script>
 </body>
 
 </html>
